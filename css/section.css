@@ -1,0 +1,287 @@
+
+
+
+.container-1{
+  width: 100%;
+  text-align: center;
+  border-bottom: 10px solid #FFA931;
+}
+
+.main{
+  text-transform: uppercase;
+
+}
+
+.main > *{
+  margin-top: 10px;
+}
+
+
+
+
+
+.container-2{
+  width: 100%;
+  text-align: center;
+  border-bottom: 10px solid #FFA931;
+
+}
+
+.container-3{
+  width: 100%;
+  text-align: center;
+  border-bottom: 10px solid #FFA931;
+}
+
+.container-4{
+  width: 100%;
+  text-align: center;
+  border-bottom: 10px solid #FFA931;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+.ayuda{
+  margin-top: 20px;
+}
+
+.img{
+  text-align: center;
+}
+
+.img h2{
+  position: relative;
+  top: 75px;
+  font-size: 1.8em;
+  background-color: rgba(73, 73, 73, 0.49);
+  border-radius: 10%;
+  color: white;
+}
+
+
+
+
+
+.ayuda p{
+
+  background: rgba(167, 171, 169, 0.82);
+  color: white;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  font-weight: bold;
+
+}
+
+
+.fa-stack{
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+
+
+
+
+.lengua{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lengua h5{
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+
+
+.html> *{
+  display: inline-block;
+  margin: auto;
+}
+
+.html{
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.html figure{
+ width: 200px;
+ margin-left: 0px;
+ margin-top: 20px;
+
+}
+
+.html figure img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* HACK: main-2 */
+
+
+
+
+
+
+.main-10{
+
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.main-10 h5{
+  font-size: 1.7em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #FFA931;
+}
+
+
+
+.main-10 p{
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: gray;
+}
+
+
+
+.main-10 .precios{
+  height: 300px;
+}
+
+
+
+
+
+
+
+.main-10 .precios-10{
+  height: 300px;
+
+}
+
+.main-10 .precios-20{
+  height: 300px;
+
+
+}
+
+.main-10 .precios-30{
+  height: 300px;
+
+
+}
+
+/* HACK: titulocostos */
+.titlei{
+  background: #59A3E6;
+}
+
+
+#color{
+  background: #59A3E6;
+}
+
+#botou{
+  background: #59A3E6;
+}
+
+
+.titulocostos{
+  font-size: 2.5em;
+  padding: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#footer{
+    background: #59A3E6;
+
+}
+
+
+
+
+
+
+/* HACK: proyectos */
+
+.rolley{
+  width: 90%;
+  margin: auto;
+}
+
+
+.rolley > *{
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.rolley h6{
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+
+.rolley  p{
+  font-size: 1.1em;
+  color: gray;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.lenguajes{
+  margin-top: 90px;
+
+  position: relative;
+}
+
+.lenguajes figure{
+  width: 250px;
+  margin: auto;
+}
+
+.lenguajes figure img{
+ width: 100%;
+}
+figure:before{
+  content: '';
+
+}
+
+
+
+.lenguajes figcaption{
+  width: 250px;
+  margin: auto;
+  font-size: 1.7em;
+  color:  gray;
+}

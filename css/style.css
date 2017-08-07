@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+header{
+  width: 100%;
+  height: 100px;
+  background: #3790DF;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:767px) {
+
+  body{
+
+  }
+
+  .main{
+    margin: auto;
+    margin-top: 50px;
+  }
+
+ .main > *{
+   display: inline-block;
+   text-align: center;
+ }
+
+
+
+ .main .container-1{
+   width: 50%;
+  border-bottom: none;
+ }
+ .main .container-1 .comentario{
+   width: 90%;
+   height: 200px;
+
+   margin: auto;
+ }
+
+
+
+
+
+
+ .main .container-2{
+   width: 50%;
+   float: left;
+   border-bottom: none;
+ }
+
+
+ .main .container-2 .comentario-10{
+   width: 90%;
+   height: 200px;
+
+   margin: auto;
+ }
+
+
+
+ .main .container-3{
+   width: 50%;
+   border-bottom: none;
+ }
+
+ .main .container-3 .comentario-20{
+  width: 90%;
+  height: 200px;
+
+  margin: auto;
+ }
+
+
+
+
+
+
+ .main .container-4{
+   width: 50%;
+   float: left;
+  border-bottom: none;
+ }
+
+
+  .main .container-4 .comentario-30{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .img h2{
+     width: 40%;
+     float: right;
+     right: 40px;
+  }
+
+
+  nav .list-group{
+    transform: translateX(0);
+    width: 100%;
+    height: 50px;
+    background: #3790DF;
+    font-family: 'Passion One', cursive;
+  }
+
+
+
+  nav .list-group .list-group-item{
+    display: inline-block;
+    padding: 10px;
+    box-sizing:border-box;
+    border-bottom: none;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+
+  }
+
+  nav  .list-group-item:hover{
+    border-bottom: 4px solid orange;
+  }
+
+
+
+  .fa-bars{
+    display: none;
+  }
+
+  .ayuda p{
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+  .formulario form{
+    width: 30%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+   .mayor{
+     background: gray;
+     padding: 32px;
+     box-sizing: border-box;
+
+   }
+
+
+
+
+
+
+  .lengua h5{
+    width: 45%;
+    margin: auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+  }
+
+
+
+   .html figure,img{
+     margin-left: 100px;
+   }
+
+
+
+
+    .main-10 >*{
+      display: inline-block;
+    }
+
+   .main-10{
+     position: relative;
+     bottom: -70px;
+     width: 100%;
+     margin: auto;
+     border-radius: 30px;
+
+   }
+
+
+   .main-10 h5{
+    color: #FFA931;
+     font-size: 1.5em;
+     word-spacing: 3px;
+     width: 49%;
+     margin: auto;
+     margin-bottom: 10px;
+   }
+
+   .main-10 p{
+     font-size: 1.3em;
+   }
+
+
+
+   .main-10 .precios{
+     width: 50%;
+     height: 150px;
+     padding: 10px;
+     box-sizing: border-box;
+     border-bottom: none;
+   }
+
+
+
+
+
+
+
+   .main-10 .precios-10{
+     width: 50%;
+     height: 150px;
+     float: left;
+     padding: 20px;
+     box-sizing: border-box;
+
+
+   }
+
+   .main-10 .precios-20{
+     width: 50%;
+     height: 150px;
+     padding: 10px;
+     box-sizing: border-box;
+
+
+
+   }
+
+   .main-10 .precios-30{
+     width: 50%;
+     height: 150px;
+     float: left;
+     padding: 15px;
+     box-sizing: border-box;
+
+
+
+   }
+
+
+
+   .youtube{
+     width: 50%;
+   }
+
+
+
+
+
+  .penultimo{
+    width: 100%;
+  }
+
+  .efecto{
+    margin: auto;
+  }
+
+
+
+
+}

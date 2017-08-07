@@ -1,0 +1,112 @@
+
+
+
+.blog{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.blog h6{
+  font-size: 2.6em;
+}
+
+
+.penultimo{
+  width: 250px;
+  margin: auto;
+}
+
+.efecto{
+  background: gray;
+  height: 200px;
+  text-align: center;
+  position: relative;
+
+
+}
+
+.efecto p{
+  font-size: 1.6em;
+  font-family: 'Passion One', cursive;
+  position: relative;
+  top: 40px;
+}
+
+.efecto:before{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  transition: 0.5s;
+}
+
+.efecto:hover:before{
+  background:  linear-gradient(45deg, white 45%, gray 50%, white);
+}
+
+
+
+
+.efecto-10{
+  background: gray;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+
+.efecto-10 p{
+  font-size: 1.6em;
+  font-family: 'Passion One', cursive;
+  position: relative;
+  top: 40px;
+
+}
+
+.efecto-10:before{
+ content: '';
+ position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0px;
+  border-color: transparent
+                gray
+                transparent
+                transparent;
+
+ bottom: 40px;
+ left: 0px;
+   transition: 0.4s;
+
+
+}
+
+
+.efecto-10:hover:before{
+  left: -15px;
+}
+
+
+
+.efecto-10:after{
+ content: '';
+ position: absolute;
+  border-style: solid;
+  border-width: 15px 0px 15px 15px;
+  border-color: transparent
+              transparent
+              transparent
+                gray;
+
+ bottom: 40px;
+ right: 0px;
+ transition: 0.4s;
+
+
+}
+
+.efecto-10:hover::after{
+  right: -15px;
+}
